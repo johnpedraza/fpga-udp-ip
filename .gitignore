@@ -1,0 +1,4 @@
+# OCaml build files
+_build/
+*.bc
+*.exe

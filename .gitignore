@@ -2,3 +2,6 @@
 _build/
 *.bc
 *.exe
+
+# Generated RTL
+*.v

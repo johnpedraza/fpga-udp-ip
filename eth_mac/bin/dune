@@ -1,0 +1,6 @@
+(executable
+ (modes byte exe)
+ (name generate_eth_mac)
+ (libraries core hardcaml eth_mac)
+ (preprocess
+  (pps ppx_hardcaml ppx_jane)))

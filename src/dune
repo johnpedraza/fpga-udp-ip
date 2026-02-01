@@ -1,0 +1,5 @@
+(library
+ (name fpga_udp_ip)
+ (libraries core hardcaml utils eth_mac)
+ (preprocess
+  (pps ppx_hardcaml ppx_jane)))
